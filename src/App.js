@@ -16,7 +16,7 @@ import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/SpongeBobMagicConch">
+    <BrowserRouter basename="/NestIntro.github.io">
       <Box>
         <Box
           // width="100vw"
@@ -123,7 +123,7 @@ export default function App() {
                 src={squidward}
                 position="absolute"
                 bottom="80%"
-                left="150%"
+                left="140%"
                 w="220px"
                 // h="250px"
                 transform="rotate(10deg)"
