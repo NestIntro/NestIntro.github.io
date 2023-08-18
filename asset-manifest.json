@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SpongeBobMagicConch]/static/css/main.e6c13ad2.css",
-    "main.js": "/SpongeBobMagicConch]/static/js/main.2e55a2b9.js",
+    "main.js": "/SpongeBobMagicConch]/static/js/main.950cc055.js",
     "static/js/787.8cfe9553.chunk.js": "/SpongeBobMagicConch]/static/js/787.8cfe9553.chunk.js",
     "static/media/spongebob.png": "/SpongeBobMagicConch]/static/media/spongebob.a6136ecc45cbd4ed4d8f.png",
     "static/media/patrick.png": "/SpongeBobMagicConch]/static/media/patrick.b3016ef506a3d5fe5737.png",
@@ -17,11 +17,11 @@
     "static/media/installation.png": "/SpongeBobMagicConch]/static/media/installation.39ddb2f4fe668d982aa3.png",
     "index.html": "/SpongeBobMagicConch]/index.html",
     "main.e6c13ad2.css.map": "/SpongeBobMagicConch]/static/css/main.e6c13ad2.css.map",
-    "main.2e55a2b9.js.map": "/SpongeBobMagicConch]/static/js/main.2e55a2b9.js.map",
+    "main.950cc055.js.map": "/SpongeBobMagicConch]/static/js/main.950cc055.js.map",
     "787.8cfe9553.chunk.js.map": "/SpongeBobMagicConch]/static/js/787.8cfe9553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2e55a2b9.js"
+    "static/js/main.950cc055.js"
   ]
 }
