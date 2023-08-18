@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SpongeBobMagicConch]/static/css/main.e6c13ad2.css",
+    "main.js": "/SpongeBobMagicConch]/static/js/main.2e55a2b9.js",
+    "static/js/787.8cfe9553.chunk.js": "/SpongeBobMagicConch]/static/js/787.8cfe9553.chunk.js",
+    "static/media/spongebob.png": "/SpongeBobMagicConch]/static/media/spongebob.a6136ecc45cbd4ed4d8f.png",
+    "static/media/patrick.png": "/SpongeBobMagicConch]/static/media/patrick.b3016ef506a3d5fe5737.png",
+    "static/media/squidward.png": "/SpongeBobMagicConch]/static/media/squidward.846b1d0c74469ff0bef6.png",
+    "static/media/krabs.png": "/SpongeBobMagicConch]/static/media/krabs.18068eca9d0bec730637.png",
+    "static/media/title.png": "/SpongeBobMagicConch]/static/media/title.d24716e5e6439a4f854b.png",
+    "static/media/plankton.png": "/SpongeBobMagicConch]/static/media/plankton.81989e07bb09a6e5efd1.png",
+    "static/media/gary.png": "/SpongeBobMagicConch]/static/media/gary.0e3ebfb30380824d7b90.png",
+    "static/media/background.jpeg": "/SpongeBobMagicConch]/static/media/background.f0dd99f441692f3b6cb8.jpeg",
+    "static/media/sandy.png": "/SpongeBobMagicConch]/static/media/sandy.b28d53e0c76a5060af4d.png",
+    "static/media/subtitle.png": "/SpongeBobMagicConch]/static/media/subtitle.8390d7d1a61909e4a1c0.png",
+    "static/media/basic-usage.png": "/SpongeBobMagicConch]/static/media/basic-usage.765b3ac999263388b249.png",
+    "static/media/installation.png": "/SpongeBobMagicConch]/static/media/installation.39ddb2f4fe668d982aa3.png",
+    "index.html": "/SpongeBobMagicConch]/index.html",
+    "main.e6c13ad2.css.map": "/SpongeBobMagicConch]/static/css/main.e6c13ad2.css.map",
+    "main.2e55a2b9.js.map": "/SpongeBobMagicConch]/static/js/main.2e55a2b9.js.map",
+    "787.8cfe9553.chunk.js.map": "/SpongeBobMagicConch]/static/js/787.8cfe9553.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2e55a2b9.js"
+  ]
+}
