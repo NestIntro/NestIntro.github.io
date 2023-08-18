@@ -1,4 +1,4 @@
-import { Box, Code, Image, Img, Input, Text } from "@chakra-ui/react";
+import { Box, Image, Img, Text } from "@chakra-ui/react";
 import background from "./assets/images/background.jpeg";
 import title from "./assets/images/title.png";
 import subtitle from "./assets/images/subtitle.png";
@@ -12,71 +12,75 @@ import plankton from "./assets/images/plankton.png";
 import gary from "./assets/images/gary.png";
 import krabs from "./assets/images/krabs.png";
 import sandy from "./assets/images/sandy.png";
+import { BrowserRouter } from "react-router-dom";
 
 export default function App() {
   return (
-    <Box>
-      <Box
-        // width="100vw"
-        // height="100vh"
-        position={"relative"}
-        backgroundImage={background}
-        backgroundSize="cover"
-        backgroundPosition="center"
-        backgroundRepeat="no-repeat"
-        display="flex"
-        flexDirection="column"
-        alignItems="center"
-        justifyContent="start"
-      >
-        <Image src={title} alt="Spongebob" mb={-80} />
-        <Image src={subtitle} alt="MagicConch" w="500px" />
-        <Box position="relative">
-          <Image src={bubble} alt="Bubble" />
-          <Box
-            w={"500px"}
-            position="absolute"
-            top="50%"
-            left="52%"
-            transform="translate(-50%, -50%)"
-          >
+    <BrowserRouter basename="/SpongeBobMagicConch">
+      <Box>
+        <Box
+          // width="100vw"
+          // height="100vh"
+          position={"relative"}
+          backgroundImage={background}
+          backgroundSize="cover"
+          backgroundPosition="center"
+          backgroundRepeat="no-repeat"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          justifyContent="start"
+        >
+          <Image src={title} alt="Spongebob" mb={-80} />
+          <Image src={subtitle} alt="MagicConch" w="500px" />
+          <Box position="relative">
+            <Image src={bubble} alt="Bubble" />
             <Box
-              display="flex"
-              flexDirection="column"
-              alignItems="center"
-              justifyContent="center"
-              height="100%"
+              w={"500px"}
+              position="absolute"
+              top="50%"
+              left="52%"
+              transform="translate(-50%, -50%)"
             >
-              <Image src={installation} />
-              <Text
-                w={"300px"}
-                lineHeight={"50px"}
-                h={"50px"}
-                textAlign={"center"}
-                bgColor={"black"}
-                color={"#FFFFFF"}
+              <Box
+                display="flex"
+                flexDirection="column"
+                alignItems="center"
+                justifyContent="center"
+                height="100%"
               >
-                $npm i magic-conch-soragodong
-              </Text>
-            </Box>
-            <Box
-              display="flex"
-              flexDirection="column"
-              alignItems="center"
-              justifyContent="center"
-              height="100%"
-            >
-              <Image src={basicusage} />
-              <Text
-                w={"450px"}
-                lineHeight={"50px"}
-                h={"50px"}
-                textAlign={"center"}
-                bgColor={"black"}
-                color={"#FFFFFF"}
+                <Image src={installation} />
+                <Text
+                  w={"300px"}
+                  lineHeight={"50px"}
+                  h={"50px"}
+                  textAlign={"center"}
+                  bgColor={"black"}
+                  color={"#FFFFFF"}
+                >
+                  $npm i magic-conch-soragodong
+                </Text>
+              </Box>
+              <Box
+                display="flex"
+                flexDirection="column"
+                alignItems="center"
+                justifyContent="center"
+                height="100%"
               >
-                $node node_modules/magic-conch-soragodong/cli.js{" "}
-              </Text>
+                <Image src={basicusage} />
+                <Text
+                  w={"450px"}
+                  lineHeight={"50px"}
+                  h={"50px"}
+                  textAlign={"center"}
+                  bgColor={"black"}
+                  color={"#FFFFFF"}
+                  borderRadius={"3xl"}
+                >
+                  $node node_modules/magic-conch-soragodong/cli.js{" "}
+                </Text>
+              </Box>
               <Img
                 src={spongebob}
                 position="absolute"
@@ -147,6 +151,6 @@ export default function App() {
           </Box>
         </Box>
       </Box>
-    </Box>
+    </BrowserRouter>
   );
 }
